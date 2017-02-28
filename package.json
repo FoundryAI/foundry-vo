@@ -1,0 +1,33 @@
+{
+  "name": "foundry-vo",
+  "version": "0.0.6",
+  "description": "Extremely simple abstract class that can be used to create immutable Value Objects useful to pick up Intellisense while working in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoundryAI/foundry-vo.git"
+  },
+  "keywords": [
+    "hapi.js",
+    "value",
+    "object",
+    "vo",
+    "foundryai"
+  ],
+  "author": "FoundryAI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoundryAI/foundry-vo/issues"
+  },
+  "homepage": "https://github.com/FoundryAI/foundry-vo#readme",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "lodash": "^4.12.0"
+  },
+  "devDependencies": {
+    "should": "^8.3.1"
+  }
+}
