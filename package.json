@@ -1,11 +1,12 @@
 {
-  "name": "foundry-vo",
+  "name": "@foundry-ai/foundry-vo",
   "version": "0.0.6",
   "description": "Extremely simple abstract class that can be used to create immutable Value Objects useful to pick up Intellisense while working in Node.js",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha ./test/"
   },
+  "access": "public",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FoundryAI/foundry-vo.git"
