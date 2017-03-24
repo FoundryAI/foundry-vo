@@ -6,7 +6,9 @@
   "scripts": {
     "test": "NODE_ENV=test mocha ./test/"
   },
-  "access": "public",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FoundryAI/foundry-vo.git"
